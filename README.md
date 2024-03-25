@@ -1,5 +1,5 @@
 # Forged dataset building.
-Simple script that builds a forged dataset from an authentic, using huggingface's APIs of text2img et img2text models (GIT and Stable diffusion)
+Simple script that builds a forged image dataset from an authentic, using huggingface's APIs of text2img et img2text models (GIT and Stable diffusion)
 
 ### Links for huggingface models :  
 (i) https://huggingface.co/microsoft/git-large-r-coco
