@@ -73,12 +73,13 @@ def build_image(image_name, authentic_square_path, forged_square_path, forgery_m
     
     #paste forged_square
     auth_img = Image.open(image_name)
+    width, height = auth_img.size
     forged_img = Image.new("RGB",auth_img.size,"white")
     forged_img.paste(auth_img,(0,0))
     forged_img.paste(forged_square, (x,y), forged_square)
     forged_img.save(forged_image_path)
     #save forgery mask
-    mask = Image.new("RGB", (1024, 1024), "white")
+    mask = Image.new("RGB", (width, height), "white")
     black = Image.new("RGB", (size,size),"black")
     mask.paste(black, (x,y), forged_square)
     mask.save(forgery_mask_path)
