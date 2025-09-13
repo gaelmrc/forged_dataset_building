@@ -1,12 +1,4 @@
 
-### Links for huggingface models :  
-(i) https://huggingface.co/microsoft/git-large-r-coco
-(ii) https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
-
-
-Before running, dont forget to ask for a free API key on huggingface. 
-
-
 # Forged Dataset Building
 This project builds a **forged dataset** from authentic images.  
 The pipeline works as follows:
