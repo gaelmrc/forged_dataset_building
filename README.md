@@ -15,7 +15,7 @@ The pipeline works as follows:
    - metadata (JSON + pickle)
   
   <p align="center">
-  <img src="images/procedure.Img2Text2Img_process.jpg" alt="" width="85%">
+  <img src="images/Img2Text2Img_process.jpg" alt="" width="85%">
 </p>
 <p align="center"><em> Complete procedure to forge an image.</em></p>
 
