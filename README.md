@@ -38,7 +38,3 @@ Linux / macOS:
 ```bash
 export HF_TOKEN=hf_********************************
 
-Windows:
-```bash
-setx HF_TOKEN "hf_********************************"
-
